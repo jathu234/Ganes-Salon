@@ -1,0 +1,995 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc; /* Light background to complement the theme */
+}
+
+/* Header */
+.header {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for the header */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Logo */
+.logo-img {
+    width: 150px; /* Adjust the logo size */
+}
+
+/* Navigation Menu */
+.nav-menu ul {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-menu ul li a {
+    text-decoration: none;
+    font-size: 16px;
+    color: #004466; /* Dark blue for text */
+    transition: color 0.3s ease;
+}
+
+.nav-menu ul li a:hover {
+    color: #0077b6; /* Lighter blue on hover */
+}
+
+/* Call-to-Action Button */
+.cta-btn {
+    background-color: #0077b6; /* Medium blue for CTA */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.cta-btn:hover {
+    background-color: #005f99; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .nav-menu ul {
+        flex-direction: column;
+        gap: 15px;
+        margin-top: 15px;
+    }
+
+    .cta-btn {
+        margin-top: 15px;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc; /* Light background to complement the theme */
+}
+
+/* Hero Section */
+.hero {
+    background-color: #e6f2ff; /* Light blue background */
+    background-image: url('hair-salon-hero.jpg'); /* Optional: Background image for the hero section */
+    background-size: cover;
+    background-position: center;
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: #004466; /* Dark blue text */
+    padding: 0 20px;
+    position: relative;
+}
+
+/* Hero Content */
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #003354; /* Darker blue for the heading */
+    margin-bottom: 20px;
+}
+
+.hero p {
+    font-size: 18px;
+    color: #004466; /* Slightly darker blue for the text */
+    margin-bottom: 30px;
+}
+
+/* Call-to-Action Buttons */
+.hero-cta {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.cta-btn {
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc; /* Light background to complement the theme */
+}
+
+/* Über mich Section */
+.about {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 60px 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+
+.about-content {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-text {
+    flex: 1;
+    max-width: 600px;
+}
+
+.about-text h2 {
+    font-size: 36px;
+    color: #004466; /* Dark blue for the heading */
+    margin-bottom: 20px;
+}
+
+.about-text p {
+    font-size: 18px;
+    color: #004466; /* Dark blue for the text */
+    line-height: 1.6;
+}
+
+.about-image {
+    flex: 1;
+    text-align: center;
+}
+
+.profile-img {
+    width: 100%;
+    max-width: 400px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .about-content {
+        flex-direction: column;
+    }
+
+    .about-text {
+        text-align: center;
+    }
+
+    .about-image {
+        margin-top: 30px;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc; /* Light background to complement the theme */
+}
+
+/* Services Section */
+.services {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.services h2 {
+    font-size: 36px;
+    color: #004466; /* Dark blue for the heading */
+    margin-bottom: 40px;
+}
+
+.services-grid {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+}
+
+/* Service Item */
+.service-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 300px;
+    text-align: center;
+}
+
+.service-img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.service-item h3 {
+    font-size: 24px;
+    color: #003354; /* Darker blue for the service title */
+    margin-bottom: 15px;
+}
+
+.service-item p {
+    font-size: 16px;
+    color: #004466; /* Slightly darker blue for the text */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .services-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .service-item {
+        max-width: 100%;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc; /* Light background to complement the theme */
+}
+
+/* Galerie / Portfolio Section */
+.gallery {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.gallery h2 {
+    font-size: 36px;
+    color: #004466; /* Dark blue for the heading */
+    margin-bottom: 40px;
+}
+
+.gallery-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.gallery-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.gallery-item:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.gallery-img {
+    width: 100%;
+    height: 250px;
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .gallery-grid {
+        grid-template-columns: 1fr;
+    }
+
+    .gallery-item {
+        margin-bottom: 20px;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc; /* Light background to complement the theme */
+}
+
+/* Testimonials Section */
+.testimonials {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.testimonials h2 {
+    font-size: 36px;
+    color: #004466; /* Dark blue for the heading */
+    margin-bottom: 40px;
+}
+
+.testimonials-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Testimonial Item */
+.testimonial-item {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.testimonial-item:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.testimonial-item p {
+    font-size: 16px;
+    color: #004466; /* Slightly darker blue for the text */
+    margin-bottom: 15px;
+    line-height: 1.6;
+}
+
+.testimonial-item h4 {
+    font-size: 18px;
+    color: #003354; /* Darker blue for the name */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .testimonials-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc; /* Light background to complement the theme */
+}
+
+/* Special Offers / Membership Section */
+.special-offers {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.special-offers h2 {
+    font-size: 36px;
+    color: #004466; /* Dark blue for the heading */
+    margin-bottom: 40px;
+}
+
+.offers-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Offer Item */
+.offer-item {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.offer-item:hover {
+    transform: scale(1.05); /* Slight zoom effect on hover */
+}
+
+.offer-item h3 {
+    font-size: 24px;
+    color: #003354; /* Darker blue for the offer title */
+    margin-bottom: 15px;
+}
+
+.offer-item p {
+    font-size: 16px;
+    color: #004466; /* Dark blue for the text */
+    margin-bottom: 10px;
+}
+
+.offer-item span {
+    font-size: 14px;
+    color: #0077aa; /* Light blue for small details */
+    display: block;
+    margin-bottom: 20px;
+}
+
+.offer-btn {
+    background-color: #004466; /* Dark blue button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.offer-btn:hover {
+    background-color: #003354; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .offers-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc; /* Light background to complement the theme */
+}
+
+/* Location & Hours Section */
+.location-hours {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.location-hours h2 {
+    font-size: 36px;
+    color: #004466; /* Dark blue for the heading */
+    margin-bottom: 40px;
+}
+
+.location-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Location Info */
+.location-item h3,
+.hours-item h3 {
+    font-size: 24px;
+    color: #003354; /* Darker blue for the subheadings */
+    margin-bottom: 15px;
+}
+
+.location-item p {
+    font-size: 16px;
+    color: #004466; /* Slightly darker blue for the text */
+    margin-bottom: 20px;
+}
+
+#map {
+    width: 100%;
+    height: 250px;
+    background-color: #d9e9ff;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#map img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Hours Info */
+.hours-list {
+    list-style-type: none;
+    font-size: 16px;
+    color: #004466; /* Dark blue for the list items */
+}
+
+.hours-list li {
+    margin-bottom: 10px;
+}
+
+.hours-list strong {
+    color: #003354; /* Slightly darker blue for the day labels */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .location-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc; /* Light background to complement the theme */
+}
+
+/* Contact & Appointment Booking Section */
+.contact-booking {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact-booking h2 {
+    font-size: 36px;
+    color: #004466; /* Dark blue for the heading */
+    margin-bottom: 40px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    text-align: left;
+}
+
+/* Contact Form */
+.contact-item h3 {
+    font-size: 24px;
+    color: #003354; /* Darker blue for the subheading */
+    margin-bottom: 20px;
+}
+
+.contact-form {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-size: 16px;
+    color: #004466; /* Dark blue for the labels */
+    margin-bottom: 5px;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccddee;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.submit-btn {
+    background-color: #004466;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.submit-btn:hover {
+    background-color: #003354; /* Darker blue on hover */
+}
+
+/* Appointment Booking */
+.booking-item h3 {
+    font-size: 24px;
+    color: #003354; /* Darker blue for the subheading */
+    margin-bottom: 20px;
+}
+
+.booking-item p {
+    font-size: 16px;
+    color: #004466; /* Dark blue for the text */
+    margin-bottom: 20px;
+}
+
+.booking-btn {
+    background-color: #004466;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+}
+
+.booking-btn:hover {
+    background-color: #003354; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc; /* Light background to complement the theme */
+}
+
+/* Footer */
+.footer {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 40px 20px;
+    color: #004466; /* Dark blue for text */
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin-right: 20px;
+}
+
+.footer-section h3 {
+    font-size: 24px;
+    color: #003354; /* Darker blue for headings */
+    margin-bottom: 15px;
+}
+
+.footer-section p {
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    margin-bottom: 10px;
+}
+
+.social-links a {
+    color: #004466;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-links li {
+    margin-bottom: 10px;
+}
+
+.footer-links a {
+    color: #004466;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    font-size: 14px;
+    color: #003354; /* Darker blue for footer text */
+}
+
+.footer-bottom p {
+    margin: 10px 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .footer-section {
+        margin-bottom: 20px;
+    }
+
+    .footer-section:last-child {
+        margin-bottom: 0;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc; /* Light background to complement the theme */
+}
+
+/* Jewelry Shop Section */
+.jewelry-shop {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.jewelry-shop h2 {
+    font-size: 36px;
+    color: #004466; /* Dark blue for the heading */
+    margin-bottom: 40px;
+}
+
+.jewelry-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Jewelry Item */
+.jewelry-item {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    text-align: left;
+}
+
+.jewelry-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+
+.jewelry-item h3 {
+    font-size: 24px;
+    color: #003354; /* Darker blue for headings */
+    margin-bottom: 10px;
+}
+
+.jewelry-item p {
+    font-size: 16px;
+    color: #004466; /* Dark blue for text */
+    margin-bottom: 15px;
+}
+
+.price {
+    font-size: 20px;
+    color: #003354; /* Darker blue for price */
+    display: block;
+    margin-bottom: 15px;
+}
+
+.buy-btn {
+    background-color: #004466;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.buy-btn:hover {
+    background-color: #003354; /* Darker blue on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .jewelry-grid {
+        grid-template-columns: 1fr;
+    }
+}
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f8fc; /* Light background to complement the theme */
+}
+
+/* Contact / Appointment Booking Section */
+.contact-booking {
+    background-color: #e6f2ff; /* Light blue background */
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contact-booking h2 {
+    font-size: 36px;
+    color: #004466; /* Dark blue for the heading */
+    margin-bottom: 40px;
+}
+
+.contact-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Contact Info */
+.contact-info {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.contact-info h3 {
+    font-size: 24px;
+    color: #003354;
+    margin-bottom: 15px;
+}
+
+.contact-info p {
+    font-size: 16px;
+    color: #004466;
+    margin-bottom: 15px;
+}
+
+.phone-number {
+    font-size: 20px;
+    color: #0077aa;
+    display: inline-block;
+    margin-bottom: 20px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.phone-number:hover {
+    color: #003354;
+}
+
+/* Booking Form */
+.booking-form {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+}
+
+.booking-form h3 {
+    font-size: 24px;
+    color: #003354;
+    margin-bottom: 20px;
+}
+
+.booking-form label {
+    font-size: 16px;
+    color: #004466;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.booking-form input,
+.booking-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.booking-btn {
+    background-color: #004466; /* Dark blue button */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.booking-btn:hover {
+    background-color: #003354; /* Darker shade on hover */
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .contact-grid {
+        grid-template-columns: 1fr;
+    }
+}
